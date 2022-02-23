@@ -15,31 +15,42 @@ body {
   max-width: 75ch;
 }
 
+.article-container {
+  margin: 0px 20px;
+  margin-top: 50px;
+  border: 1px solid;
+  padding: 10px 15px;
+}
+
+.article-container h2 {
+  text-align: center;
+}
+
 .btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  border-radius: 10px;
   margin: auto;
   padding: 6px 9px;
-  font-size: 1rem;
-}
-
-.btn:hover {
-  background-color: grey;
+  font-size: 1.5rem;
+  border-color: grey ;
 }
 
 .pointer {
   cursor: pointer;
 }
 
-footer {
-  display:flex;
-  flex-wrap: wrap;
-  text-align:center;
-  justify-content: center;
-  padding: 50px;
-  color:black;
-  height:1px;
+.poster {
+  border: 5px solid rgb(0, 0, 0);
+  max-width: 30vh;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  color: black;
+}
+
 
